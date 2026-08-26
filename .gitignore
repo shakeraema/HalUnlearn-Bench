@@ -1,0 +1,8 @@
+.env
+*.log
+*.bak
+.DS_Store
+__pycache__/
+phase0_seed_*
+mpsgraph-*
+scratch/

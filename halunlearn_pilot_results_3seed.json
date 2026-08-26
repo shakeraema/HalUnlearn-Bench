@@ -1,0 +1,107 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "n_authors": 2,
+  "seeds": [
+    42
+  ],
+  "per_seed_results": [
+    {
+      "FC": 1.0,
+      "RF": NaN,
+      "HR": 0.0,
+      "AR": 1.0,
+      "HalUnlearn_Score": NaN,
+      "raw_post_adjacent_acc": 0.0,
+      "seed": 42,
+      "method": "Entropy Maximization",
+      "baseline_adjacent_acc": 0.0
+    },
+    {
+      "FC": 1.0,
+      "RF": NaN,
+      "HR": 0.0,
+      "AR": 1.0,
+      "HalUnlearn_Score": NaN,
+      "raw_post_adjacent_acc": 0.0,
+      "seed": 42,
+      "method": "Naive Gradient Ascent",
+      "baseline_adjacent_acc": 0.0
+    }
+  ],
+  "aggregate": {
+    "Entropy Maximization": {
+      "FC": {
+        "mean": 1.0,
+        "std": 0.0,
+        "values": [
+          1.0
+        ]
+      },
+      "RF": {
+        "mean": NaN,
+        "std": 0.0,
+        "values": [
+          NaN
+        ]
+      },
+      "HR": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0
+        ]
+      },
+      "AR": {
+        "mean": 1.0,
+        "std": 0.0,
+        "values": [
+          1.0
+        ]
+      },
+      "HalUnlearn_Score": {
+        "mean": NaN,
+        "std": 0.0,
+        "values": [
+          NaN
+        ]
+      }
+    },
+    "Naive Gradient Ascent": {
+      "FC": {
+        "mean": 1.0,
+        "std": 0.0,
+        "values": [
+          1.0
+        ]
+      },
+      "RF": {
+        "mean": NaN,
+        "std": 0.0,
+        "values": [
+          NaN
+        ]
+      },
+      "HR": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0
+        ]
+      },
+      "AR": {
+        "mean": 1.0,
+        "std": 0.0,
+        "values": [
+          1.0
+        ]
+      },
+      "HalUnlearn_Score": {
+        "mean": NaN,
+        "std": 0.0,
+        "values": [
+          NaN
+        ]
+      }
+    }
+  }
+}
