@@ -1,0 +1,32 @@
+{
+  "seed": 100,
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "n_authors": 200,
+  "status": "METRICS_LOST_IN_COLAB_DISCONNECT - seed marked complete to avoid re-training; re-run if metrics needed",
+  "methods": {
+    "ME": {
+      "FC": null,
+      "RF": null,
+      "HR": null,
+      "AR": null,
+      "GR": null,
+      "Score": null
+    },
+    "GA": {
+      "FC": null,
+      "RF": null,
+      "HR": null,
+      "AR": null,
+      "GR": null,
+      "Score": null
+    },
+    "GD": {
+      "FC": null,
+      "RF": null,
+      "HR": null,
+      "AR": null,
+      "GR": null,
+      "Score": null
+    }
+  }
+}

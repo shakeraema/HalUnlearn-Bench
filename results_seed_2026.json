@@ -1,0 +1,32 @@
+{
+  "seed": 2026,
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "n_authors": 200,
+  "status": "IN_PROGRESS - Phase0 training complete (epoch 4/6 saved to Drive), unlearning pending",
+  "methods": {
+    "ME": {
+      "FC": null,
+      "RF": null,
+      "HR": null,
+      "AR": null,
+      "GR": null,
+      "Score": null
+    },
+    "GA": {
+      "FC": null,
+      "RF": null,
+      "HR": null,
+      "AR": null,
+      "GR": null,
+      "Score": null
+    },
+    "GD": {
+      "FC": null,
+      "RF": null,
+      "HR": null,
+      "AR": null,
+      "GR": null,
+      "Score": null
+    }
+  }
+}
