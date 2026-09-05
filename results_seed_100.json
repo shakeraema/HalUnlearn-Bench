@@ -2,31 +2,76 @@
   "seed": 100,
   "model": "Qwen/Qwen2.5-1.5B-Instruct",
   "n_authors": 200,
-  "status": "METRICS_LOST_IN_COLAB_DISCONNECT - seed marked complete to avoid re-training; re-run if metrics needed",
+  "status": "COMPLETE",
+  "phase0_training": {
+    "epochs": 6,
+    "avg_loss_per_epoch": [
+      1.5648,
+      1.0428,
+      0.5974,
+      0.3329,
+      0.2019,
+      0.1881
+    ]
+  },
+  "baseline": {
+    "DirectAcc": 0.88,
+    "AdjAcc": 0.85,
+    "RetainAcc": 0.1
+  },
   "methods": {
     "ME": {
-      "FC": null,
-      "RF": null,
-      "HR": null,
-      "AR": null,
-      "GR": null,
-      "Score": null
+      "FC": 1.0,
+      "RF": 0.0,
+      "HR": 0.27,
+      "AR": 1.0,
+      "GR": 0.0,
+      "Score": 0.481
     },
     "GA": {
-      "FC": null,
-      "RF": null,
-      "HR": null,
-      "AR": null,
-      "GR": null,
-      "Score": null
+      "FC": 1.0,
+      "RF": 0.0,
+      "HR": 0.82,
+      "AR": 1.0,
+      "GR": 0.0,
+      "Score": 0.646
     },
     "GD": {
-      "FC": null,
-      "RF": null,
-      "HR": null,
-      "AR": null,
-      "GR": null,
-      "Score": null
+      "FC": 0.96,
+      "RF": 0.012,
+      "HR": 0.77,
+      "AR": 0.99,
+      "GR": 0.6,
+      "Score": 0.622
+    }
+  },
+  "unlearning_training": {
+    "ME": {
+      "epochs": 3,
+      "steps_per_epoch": 400,
+      "avg_loss_per_epoch": [
+        -10.0855,
+        -11.8447,
+        -11.8688
+      ]
+    },
+    "GA": {
+      "epochs": 3,
+      "steps_per_epoch": 400,
+      "avg_loss_per_epoch": [
+        -24.396,
+        -94.9225,
+        -98.657
+      ]
+    },
+    "GD": {
+      "epochs": 3,
+      "steps_per_epoch": 400,
+      "avg_loss_per_epoch": [
+        0.0377,
+        -0.5041,
+        -47.9087
+      ]
     }
   }
 }
