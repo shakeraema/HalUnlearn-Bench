@@ -2,17 +2,30 @@
   "seed": 2026,
   "model": "Qwen/Qwen2.5-1.5B-Instruct",
   "n_authors": 200,
-  "status": "IN_PROGRESS - Phase0 training complete (epoch 4/6 saved to Drive), unlearning pending",
+  "status": "PARTIAL - ME complete, GA/GD pending (disconnected mid-GA evaluation)",
+  "phase0_training": {
+    "epochs": 6,
+    "avg_loss_per_epoch": [
+      1.5668,
+      1.0291,
+      0.5848,
+      0.3255,
+      0.2084,
+      0.151
+    ]
+  },
   "methods": {
     "ME": {
-      "FC": null,
-      "RF": null,
-      "HR": null,
-      "AR": null,
-      "GR": null,
-      "Score": null
+      "status": "COMPLETE",
+      "FC": 1.0,
+      "RF": 0.0,
+      "HR": 0.49,
+      "AR": 0.0,
+      "GR": 0.0,
+      "Score": 0.348
     },
     "GA": {
+      "status": "PENDING - unlearning done, evaluation disconnected; will re-run from Drive checkpoint",
       "FC": null,
       "RF": null,
       "HR": null,
@@ -21,6 +34,7 @@
       "Score": null
     },
     "GD": {
+      "status": "PENDING",
       "FC": null,
       "RF": null,
       "HR": null,
@@ -28,5 +42,15 @@
       "GR": null,
       "Score": null
     }
-  }
+  },
+  "checkpoint_on_drive": "/content/drive/MyDrive/HalUnlearn-Bench/halunlearn_checkpoint.json",
+  "completed_runs_on_drive": [
+    "42_ME",
+    "42_GA",
+    "42_GD",
+    "100_ME",
+    "100_GA",
+    "100_GD",
+    "2026_ME"
+  ]
 }
